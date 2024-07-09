@@ -8,6 +8,7 @@ URL:            https://github.com/igo95862/bubblejail
 Source0:        %{url}/releases/download/%{version}/bubblejail-%{version}.tar.xz
 
 BuildRequires:  meson
+BuildRequires:  gcc
 BuildRequires:  python3-jinja2
 BuildRequires:  scdoc
 Requires:       python3 >= 3.10
