@@ -10,6 +10,7 @@ Source0:        %{url}/releases/download/%{version}/bubblejail-%{version}.tar.xz
 BuildRequires:  meson
 BuildRequires:  gcc
 BuildRequires:  python3-jinja2
+BuildRequires:  python3-devel
 BuildRequires:  scdoc
 Requires:       python3 >= 3.10
 Requires:       python3-pyxdg
