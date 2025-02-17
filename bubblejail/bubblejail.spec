@@ -57,7 +57,7 @@ Bubblejail is a bubblewrap-based alternative to Firejail.
 %_datadir/bash-completion/completions/bubblejail
 %_datadir/bubblejail
 %_datadir/fish/vendor_completions.d/bubblejail.fish
-%_datadir/icons/hicolor/48x48/apps/bubblejail-config.png
+%_datadir/icons/hicolor/128x128/apps/bubblejail-config.png
 %_datadir/icons/hicolor/scalable/apps/bubblejail-config.svg
 %_mandir/man1/bubblejail.1.gz
 %_mandir/man5/bubblejail.services.5.gz
