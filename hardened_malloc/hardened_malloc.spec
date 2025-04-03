@@ -12,7 +12,8 @@ BuildRequires:  systemd-rpm-macros rpm-build rpmdevtools rpmlint make gcc gcc-c+
 %global debug_package %{nil}
 
 # https://github.com/GrapheneOS/hardened_malloc/issues/200
-%global optflags %{optflags} -fno-fat-lto-objects
+# https://github.com/GrapheneOS/hardened_malloc/pull/253
+%global optflags %{optflags} -fno-fat-lto-objects -Wno-error=unterminated-string-initialization
 
 %if 0%{?fedora} == 40
 %undefine _ld_pack_relocs
